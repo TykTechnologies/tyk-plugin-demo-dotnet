@@ -4,16 +4,19 @@
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "Google.Protobuf": "3.0.0",
+    "Grpc": "1.0.0"
+  },
   "frameworks": {
-    "netcoreapp1.0": {
-      "dependencies": {
-        "Microsoft.NETCore.App": {
-          "type": "platform",
-          "version": "1.0.0"
-        }
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Runtime": "",
+        "System.IO": ""
       },
-      "imports": "dnxcore50"
+      "dependencies": {
+	"Microsoft.NETCore.Platforms": "1.0.1"
+      }
     }
   }
 }
