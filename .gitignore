@@ -4,3 +4,4 @@ packages/
 *.suo
 *.userprefs
 *.lock.json
+settings.json
