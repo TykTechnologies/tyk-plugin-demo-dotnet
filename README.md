@@ -23,6 +23,20 @@ A test database dump is included in this repository, in case you want to replica
 
 This hook will be called after the authentication check.
 
+## Setup
+
+## Building a bundle
+
+When using gRPC for plugin bundles, the manifest file (`manifest.json`) is limited to the custom middleware definition. The gRPC server files are independent from this, just like the gRPC server itself.
+
+Check the [sample manifest file](manifest.json) for reference.
+
+To build a bundle use:
+
+```
+tyk-cli bundle build
+```
+
 ## Additional documentation
 - [An overview of gRPC support in Tyk](https://github.com/TykTechnologies/tyk/blob/develop/coprocess/grpc/README.md)
 - [Introduction to gRPC and C#](http://www.grpc.io/docs/tutorials/basic/csharp.html)
