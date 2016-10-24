@@ -22,3 +22,7 @@ A test database dump is included in this repository, in case you want to replica
 ### MyPostMiddleware
 
 This hook will be called after the authentication check.
+
+## Additional documentation
+- [An overview of gRPC support in Tyk](https://github.com/TykTechnologies/tyk/blob/develop/coprocess/grpc/README.md)
+- [Introduction to gRPC and C#](http://www.grpc.io/docs/tutorials/basic/csharp.html)
